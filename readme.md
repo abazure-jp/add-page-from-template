@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/sano-say/add-page-from-template.svg?branch=develop)](https://travis-ci.org/sano-say/add-page-from-template)
+
+
 === Plugin Name ===
 Contributors: hogetan
 Tags: page, develop

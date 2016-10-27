@@ -1,7 +1,7 @@
-{                                                                               
-   "require-dev": {
-       "satooshi/php-coveralls": "~1.0",
-         "phpunit/phpcov": "2.*"
-          }
+{
+  "require-dev": {
+    "satooshi/php-coveralls": "~1.0",
+    "phpunit/phpcov": "2.*"
+  }
 }
 

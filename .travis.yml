@@ -1,11 +1,24 @@
 language: php
-
 php:
-    - 5.3.3
-    - 5.3
-    - 5.4
+    - 7.0
     - 5.5
+    - 5.4
+    - 5.3
 
+matrix:
+    allow_failures:
+      - php: 7.0
+
+install:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev --no-interaction
 
 script:
-    - echo "(´⊙ω⊙`≡´⊙ω⊙`)"
+  - mkdir -p build/logs
+  - php vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+
+after_success:
+  - export CI_BUILD_NUMBER="$TRAVIS_BUILD_NUMBER"
+  - export CI_PULL_REQUEST="$TRAVIS_PULL_REQUEST"
+  - export CI_BRANCH="$TRAVIS_BRANCH"
+  - travis_retry php vendor/bin/coveralls -v

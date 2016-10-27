@@ -13,3 +13,4 @@ final class AP_TemplateStatus extends AP_Enum
     const CONFLICTED = 'conflicted';
     const NOTLOADED = 'notloaded';
 }
+?>

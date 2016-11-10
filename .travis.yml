@@ -1,18 +1,12 @@
 language: php
 
 php:
-    - 7.0
     - 5.5
-    - 5.4
-    - 5.3
 
 matrix:
   include:
     - php: 5.3
       env: WP_VERSION=latest WP_MULTISITE=1
-
-  allow_failures:
-    - php: 7.0
 
 env:
   - WP_VERSION=latest WP_MULTISITE=0

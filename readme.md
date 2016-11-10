@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sano-say/add-page-from-template.svg?branch=develop)](https://travis-ci.org/sano-say/add-page-from-template)
+[![Build Status](https://travis-ci.org/abazure-jp/add-page-from-template.svg?branch=develop)](https://travis-ci.org/abazure-jp/add-page-from-template)
 
 
 === Plugin Name ===

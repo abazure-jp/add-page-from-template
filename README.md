@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/abazure-jp/add-page-from-template.svg?branch=develop)](https://travis-ci.org/abazure-jp/add-page-from-template)
-
+[![Coverage Status](https://coveralls.io/repos/github/abazure-jp/add-page-from-template/badge.svg?branch=feature%2Ftravis%E3%81%A8%E9%80%A3%E6%90%BA%E3%81%97%E3%81%A6coverage%E3%82%92%E8%A1%A8%E7%A4%BA)](https://coveralls.io/github/abazure-jp/add-page-from-template?branch=feature%2Ftravis%E3%81%A8%E9%80%A3%E6%90%BA%E3%81%97%E3%81%A6coverage%E3%82%92%E8%A1%A8%E7%A4%BA)
 
 === Plugin Name ===
 Contributors: hogetan
@@ -19,7 +19,7 @@ Are you tired to create pages through different environments?
 * Not needed to add 'page' from admin panel
 
  The page-xxx.php would be located at 'themes/your-theme/page-foobar.php' then the page will be created as 'http://www.example.com/foobar/' without admin panel.
-  
+
 == Installation ==
 
 1. Download the Add Page From Templete plugin.

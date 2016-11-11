@@ -97,9 +97,8 @@ class AP_Template {
 
     private function getStatus() {
         /** @var WP_Rewrite */
-        //$wp_rewrite;
-        // incomplete
-        return AP_TemplateStatus::ENABLED;
+	    //$wp_rewrite;
+	    return AP_TemplateStatus::ENABLED;
     }
 
     /**

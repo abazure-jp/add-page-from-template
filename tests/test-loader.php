@@ -39,7 +39,7 @@ class AP_Loader_Test extends WP_UnitTestCase {
 		do_action('wp_loaded');
 		$this->go_to( '/hoge' );
 
-		$this->assertQueryTrue('is_page');
+		$this->assertQueryTrue('is_home');
 	}
 
 	private function cpdir_recursively($from, $dest) {

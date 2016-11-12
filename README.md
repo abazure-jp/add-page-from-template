@@ -1,6 +1,9 @@
 [![Build Status](https://travis-ci.org/abazure-jp/add-page-from-template.svg?branch=develop)](https://travis-ci.org/abazure-jp/add-page-from-template)
 [![Coverage Status](https://coveralls.io/repos/github/abazure-jp/add-page-from-template/badge.svg?branch=feature%2Ftravis%E3%81%A8%E9%80%A3%E6%90%BA%E3%81%97%E3%81%A6coverage%E3%82%92%E8%A1%A8%E7%A4%BA)](https://coveralls.io/github/abazure-jp/add-page-from-template?branch=feature%2Ftravis%E3%81%A8%E9%80%A3%E6%90%BA%E3%81%97%E3%81%A6coverage%E3%82%92%E8%A1%A8%E7%A4%BA)
 
+
+aaa
+
 === Plugin Name ===
 Contributors: hogetan
 Tags: page, develop

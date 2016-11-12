@@ -12,6 +12,7 @@ env:
 - WP_VERSION=latest WP_MULTISITE=0
 #- WP_VERSION=3.7 WP_MULTISITE=0
 - WP_VERSION=4.6.1 WP_MULTISITE=0
+
 install:
 - curl -s http://getcomposer.org/installer | php
 - php composer.phar install --dev --no-interaction

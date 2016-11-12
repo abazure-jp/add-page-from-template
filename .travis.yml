@@ -23,6 +23,7 @@ after_success:
 - export CI_BRANCH="$TRAVIS_BRANCH"
 - travis_retry php vendor/bin/coveralls -v
 notifications:
+  email: false
   slack:
     rooms:
       secure: f/Km4ikq+kWpBxmibU4nvOsLyiNBw7a856Vo15hAQaMwhARS4u4/jjELBZqR/hRjGjCoUMCN0lGoPg7ZR+5CtCdoSfpgGA4H1RLXWvptUvJiCcyfl+8HEYuvmdNX0vVILfathdXPO5vt6Kr4O40k8Xn/HZZd0RZnFaOd4ekVY8JSXS69rFXKEdfIvh6xQhc4yy0yKubJMoyqWFjN/ZvR7A2xFb1DDq4iq3pxayvqLNuSQGpgk6Ns/g9J1LtYXhN1ICAt2z8EF/0U2n0/cZlFHrW7dleVBoHyXHjCNvD4PkGFDmxe1ONib+4j6JyhYapKw6H4rncBnGgxQ6tPeleXau3846RugJLSd+88Q3je15qhf6UnJ9UKTwktit3zPvIGEL70ysxQs0yIsN4r7rYnU65y/g2ZT5x0Q2Qt18hcEtwmWT95fGJ51KwHzcsKt8/8dmorGZwMWJpBghd6+mmdMPvW457cIZENntHWTIJu11vp62vy6AXVP1AEjyTwtCfAl7zKBI/B5X6kialMWrpr8r0Qq/2+9UE/fwWakjMfFZADSDxFIpDkXT3uov+vsCttLdL+BJ6fhdg1z1w5p45CHpNRGFtttu2xVV4GLOREwEn+og+pnCRKrXJ1HJ31hfXSRcYwAEvsLXFNxrApLv5qjvuXAioO35T4NYVl5UsSuUI=
